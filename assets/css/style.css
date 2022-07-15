@@ -933,7 +933,7 @@ p {
 
 @media (max-width: 767px) {
   .call-action-content {
-    padding-top: 30px;
+    padding-top: 80px;
     padding-bottom: 30px;
   }
 }
@@ -1224,7 +1224,7 @@ p.form-message.error {
 }
 
 .footer-title {
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 700;
   line-height: 18px;
   color: #6c6c6c;
