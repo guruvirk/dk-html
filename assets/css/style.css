@@ -1207,9 +1207,23 @@ p.form-message.error {
   font-weight: 600;
 }
 
+.navbar-logo {
+  height: 150px;
+}
+
+.fotter-logo-img {
+  height: 150px;
+}
+
 @media (max-width: 767px) {
   .footer-logo-support .footer-support span {
     display: block;
+  }
+  .navbar-logo {
+    height: 100px;
+  }
+  .fotter-logo-img {
+    height: 100px;
   }
 }
 
