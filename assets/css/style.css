@@ -595,6 +595,11 @@ p {
   color: #121212;
 }
 
+.services-title:hover {
+  font-size: 26px !important;
+  color: #0067f4 !important;
+}
+
 .services-content .services-content .text {
   font-size: 14px;
   line-height: 20px;
