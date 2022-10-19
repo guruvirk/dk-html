@@ -1358,3 +1358,12 @@ p.form-message.error {
   font-size: 14px;
   color: #ffb400;
 }
+
+ul.nav li.dropdown:hover > ul.dropdown-menu {
+  display: block;    
+  }
+  @media (min-width: 979px) {
+    ul.nav li.dropdown:hover > ul.dropdown-menu {
+      display: block;
+    }
+  }
