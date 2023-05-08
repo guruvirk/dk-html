@@ -427,7 +427,8 @@
                                 <div class="col-md-6">
                                     <div class="single-form form-group">
                                         <input type="text" name="phone" placeholder="Phone"
-                                            data-error="Phone is required." maxlength="10" required="required">
+                                            data-error="Phone is required." minlength="10" maxlength="12"
+                                            required="required">
                                         <div class="help-block with-errors"></div>
                                     </div> <!-- single form -->
                                 </div>
@@ -550,7 +551,7 @@
     <script>
         function validateForm() {
             var regEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/g;
-            var regPhone = /^\d{10}$/;
+            var regPhone = /^[0-9]*$/;
             var regName = /\d+$/g;
             let name = document.forms["contact-form"]["name"].value;
             if (regName.test(name)) {
