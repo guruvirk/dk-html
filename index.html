@@ -555,6 +555,23 @@
         gtag('config', 'AW-11170737911');
     </script>
 
+    <script>
+        window.addEventListener('load', function () {
+            jQuery('body').on('submit', '#contact-form', function () {
+                gtag('event', 'conversion', {
+                    'send_to': 'AW-11170737911/itwJCP_uoKAYEPfdz84p'
+                });
+            })
+            jQuery('body').on('mousedown', '[href*="tel:"]', function () {
+                gtag('event', 'conversion', {
+                    'send_to': 'AW-11170737911/g2H7CPzuoKAYEPfdz84p'
+                });
+            })
+        });
+
+    </script>
+
+
     <!--====== Main js ======-->
     <script src="assets/js/main.js"></script>
 
